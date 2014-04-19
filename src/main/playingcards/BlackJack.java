@@ -9,8 +9,8 @@ public class BlackJack {
 
     public static void main(String[] args) {
 
-        Cards c = new Cards(5,2);
-        System.out.println(c.area());
+        Cards c = new Cards(11);
+        System.out.println(c.getValue());
 
     }
 

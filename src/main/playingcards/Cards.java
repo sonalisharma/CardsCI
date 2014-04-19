@@ -5,16 +5,15 @@ package playingcards;
  */
 
 public class Cards {
-    int width;
-    int height;
 
-    public Cards(int width, int height)
+    private int value;
+
+    public Cards(int value)
     {
-        this.width = width;
-        this.height = height;
+        this.value = value;
     }
 
-    public int area() {
-        return 10;
+    public int getValue() {
+        return value;
     }
 }

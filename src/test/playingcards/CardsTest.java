@@ -1,7 +1,6 @@
 package playingcards;
 
 import org.junit.Test;
-import playingcards.Cards;
 
 import static junit.framework.Assert.assertEquals;
 
@@ -12,10 +11,10 @@ import static junit.framework.Assert.assertEquals;
 public class CardsTest {
 
     @Test
-    public void  shouldreturnAreaOfTenforTwoByFiveRectangle()
+    public void  shouldReturnValueBetweenOneToThirteen()
     {
-        Cards rectangle = new Cards(5,2);
-        assertEquals(10,rectangle.area());
+        Cards card = new Cards(11);
+        assertEquals(11,card.getValue());
     }
 
 }
