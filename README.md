@@ -1,4 +1,4 @@
 CardsCI
 =======
 
-Cards Game for Continuous Integration
+playingcards.Cards Game for Continuous Integration

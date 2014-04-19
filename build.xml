@@ -1,4 +1,4 @@
-<project name="ci-calculator" basedir="." default="main">
+<project name="CardsGame" basedir="." default="main">
 
     <property name="src.dir"     value="src"/>
     <property name="test.dir"     value="src/test"/>
@@ -8,7 +8,7 @@
     <property name="classes.dir" value="${build.dir}/classes"/>
     <property name="jar.dir"     value="${build.dir}/jar"/>
 
-    <property name="main-class"  value="main.mycalculator.CalculatorFrame"/>
+    <property name="main-class"  value="main.playingcards.BlackJack"/>
 
     <property name="lib.dir"     value="lib"/>
 

@@ -1,4 +1,7 @@
+package playingcards;
+
 import org.junit.Test;
+import playingcards.Cards;
 
 import static junit.framework.Assert.assertEquals;
 
