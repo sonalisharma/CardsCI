@@ -7,13 +7,16 @@ package playingcards;
 public class Cards {
 
     private int value;
+    private CardSuite suite;
 
-    public Cards(int value)
+    public Cards(int value, CardSuite suite)
     {
         this.value = value;
+        this.suite = suite;
     }
 
     public int getValue() {
         return value;
     }
+
 }
