@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f24f84f-e911-4b3b-940f-e7ef0e601e2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/playingcards/BlackJack.java" afterPath="$PROJECT_DIR$/src/main/playingcards/BlackJack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/playingcards/Cards.java" afterPath="$PROJECT_DIR$/src/main/playingcards/Cards.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/playingcards/CardsTest.java" afterPath="$PROJECT_DIR$/src/test/playingcards/CardsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/playingcards/DeckTest.java" afterPath="$PROJECT_DIR$/src/test/playingcards/DeckTest.java" />
     </list>
     <ignored path="CardsGame.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +71,7 @@
       <file leaf-file-name="Cards.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/playingcards/Cards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="1" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="420">
+            <state line="27" column="10" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="540">
               <folding>
                 <element signature="e#280#281#0" expanded="true" />
                 <element signature="e#308#309#0" expanded="true" />
@@ -100,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeckTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DeckTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/playingcards/DeckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="0.7161804" vertical-offset="0" max-vertical-offset="377">
+            <state line="18" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,11 +120,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardsTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CardsTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/playingcards/CardsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="6" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <folding />
+            <state line="23" column="45" selection-start="495" selection-end="495" vertical-scroll-proportion="0.64190984" vertical-offset="103" max-vertical-offset="600">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,11 +154,11 @@
         <option value="$PROJECT_DIR$/src/main/Cards.java" />
         <option value="$PROJECT_DIR$/src/main/BlackJack.java" />
         <option value="$PROJECT_DIR$/src/main/playingcards/BlackJack.java" />
-        <option value="$PROJECT_DIR$/src/test/playingcards/CardsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/playingcards/DeckTest.java" />
         <option value="$PROJECT_DIR$/src/main/playingcards/CardSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/playingcards/Cards.java" />
         <option value="$PROJECT_DIR$/src/main/playingcards/Deck.java" />
+        <option value="$PROJECT_DIR$/src/test/playingcards/DeckTest.java" />
+        <option value="$PROJECT_DIR$/src/test/playingcards/CardsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/playingcards/Cards.java" />
       </list>
     </option>
   </component>
@@ -314,7 +316,7 @@
       <recent name="$PROJECT_DIR$/.idea/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeckTest">
+  <component name="RunManager" selected="JUnit.CardsTest">
     <configuration default="false" name="CardsTest.shouldreturnAreaOfTenforTwoByFiveRectangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardsGame" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -365,6 +367,28 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="playingcards" />
       <option name="MAIN_CLASS_NAME" value="playingcards.DeckTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CardsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CardsGame" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="playingcards" />
+      <option name="MAIN_CLASS_NAME" value="playingcards.CardsTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -508,16 +532,18 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.CardsTest.shouldreturnAreaOfTenforTwoByFiveRectangle" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.CardsTest.shouldReturnValueBetweenOneToThirteen" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CardsTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DeckTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CardsTest.shouldReturnValueBetweenOneToThirteen" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CardsTest.shouldreturnAreaOfTenforTwoByFiveRectangle" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CardsTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DeckTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CardsTest.shouldReturnValueBetweenOneToThirteen" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CardsTest.shouldreturnAreaOfTenforTwoByFiveRectangle" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -621,7 +647,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/playingcards/CardsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="360">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -632,27 +660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/playingcards/CardsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/playingcards/CardSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="21" selection-start="76" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/playingcards/Cards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="420">
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,7 +678,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/playingcards/DeckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="0.7161804" vertical-offset="0" max-vertical-offset="377">
+        <state line="18" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/Cards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="10" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="540">
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/playingcards/CardsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="45" selection-start="495" selection-end="495" vertical-scroll-proportion="0.64190984" vertical-offset="103" max-vertical-offset="600">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

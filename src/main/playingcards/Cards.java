@@ -19,4 +19,12 @@ public class Cards {
         return value;
     }
 
+    @Override
+    public boolean equals(Object other)
+    {
+        if(this == other) return true;
+        if(! (other instanceof Cards)) return false;
+        return (this.getValue() == ((Cards) other).getValue());
+        //return true;
+    }
 }
