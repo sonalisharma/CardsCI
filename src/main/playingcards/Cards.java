@@ -15,7 +15,7 @@ public class Cards {
         this.suite = suite;
     }
 
-    public int getValue() {
+    private int getValue() {
         return value;
     }
 
@@ -25,6 +25,12 @@ public class Cards {
         if(this == other) return true;
         if(! (other instanceof Cards)) return false;
         return (this.getValue() == ((Cards) other).getValue());
-        //return true;
     }
+    public boolean isGreater(Cards other) {
+
+        if(this.getValue() == 1) return true;
+        else return this.getValue() > other.getValue();
+
+    }
+
 }
