@@ -2,6 +2,7 @@ package playingcards;
 
 import org.junit.Test;
 
+import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 
 /**
@@ -15,6 +16,14 @@ public class DeckTest {
         Deck d = new Deck();
         assertTrue(d.drawRandomCard() instanceof Cards);
     }
+
+    @Test
+    public void oneDeckShouldHave52Cards()
+    {
+        Deck d = new Deck();
+        assertEquals(52, d.getSize());
+    }
+
 
 
 
