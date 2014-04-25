@@ -15,4 +15,9 @@ public class Hand {
     public int cardsCount() {
         return hand.size();
     }
+
+    public void removeCard(Cards card) {
+        hand.remove(card);
+    }
+
 }
