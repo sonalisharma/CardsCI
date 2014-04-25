@@ -12,12 +12,14 @@ public class Deck {
 
     public Deck()
     {
-        for(int i =1; i<=13;i++)
-        {
-            cards.add(new Card(i,CardSuite.CLUBS));
-            cards.add(new Card(i,CardSuite.HEART));
-            cards.add(new Card(i,CardSuite.SPADE));
-            cards.add(new Card(i,CardSuite.DIAMOND));
+       for(CardRank r: CardRank.values())
+       {
+
+           for(CardSuite s: CardSuite.values())
+           {
+            cards.add(new Card(r,s));
+           }
+
         }
     }
 

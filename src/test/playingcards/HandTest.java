@@ -15,8 +15,8 @@ public class HandTest {
     public void addingTwoCardsShouldReturn2asTheLengthOfHands()
     {
         Hand h = new Hand();
-        h.addCard(new Card(1,CardSuite.CLUBS));
-        h.addCard(new Card(1,CardSuite.CLUBS));
+        h.addCard(new Card(CardRank.ACE,CardSuite.CLUBS));
+        h.addCard(new Card(CardRank.ACE,CardSuite.CLUBS));
         assertTrue(2==h.cardsCount());
     }
 
@@ -24,10 +24,10 @@ public class HandTest {
     public void removeOneCardsshouldReducetheSizeOfHandByOne()
     {
         Hand h = new Hand();
-        h.addCard(new Card(1,CardSuite.CLUBS));
-        h.addCard(new Card(1,CardSuite.CLUBS));
+        h.addCard(new Card(CardRank.ACE,CardSuite.CLUBS));
+        h.addCard(new Card(CardRank.ACE,CardSuite.CLUBS));
         assertTrue(2==h.cardsCount());
-        h.removeCard(new Card(1,CardSuite.CLUBS));
+        h.removeCard(new Card(CardRank.ACE,CardSuite.CLUBS));
         assertTrue(1==h.cardsCount());
     }
 

@@ -6,17 +6,21 @@ package playingcards;
 
 public class Card {
 
-    private int value;
+    private CardRank rank;
     private CardSuite suite;
 
-    public Card(int value, CardSuite suite)
+    public Card(CardRank rank, CardSuite suite)
     {
-        this.value = value;
+        this.rank = rank;
         this.suite = suite;
     }
 
-    private int getValue() {
-        return value;
+    public CardRank getRank() {
+        return rank;
+    }
+
+    public CardSuite getSuite() {
+        return suite;
     }
 
     @Override
@@ -24,13 +28,15 @@ public class Card {
     {
         if(this == other) return true;
         if(! (other instanceof Card)) return false;
-        return (this.getValue() == ((Card) other).getValue());
+        return (this.getRank() == ((Card) other).getRank());
     }
+
+    /* Commenting this out since this is not really the behaviour of a Card class
     public boolean isGreater(Card other) {
 
         if(this.getValue() == 1) return true;
         else return this.getValue() > other.getValue();
 
-    }
+    } */
 
 }

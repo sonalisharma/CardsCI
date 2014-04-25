@@ -18,8 +18,6 @@ public class DeckTest {
         assertTrue(d.dealCard() instanceof Card);
     }
 
-
-
     @Test
     public void oneDeckShouldHave52Cards()
     {

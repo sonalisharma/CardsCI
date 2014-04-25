@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f24f84f-e911-4b3b-940f-e7ef0e601e2c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/playingcards/Card.java" afterPath="$PROJECT_DIR$/src/main/playingcards/Card.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/playingcards/CardsTest.java" afterPath="$PROJECT_DIR$/src/test/playingcards/CardsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/playingcards/Deck.java" afterPath="$PROJECT_DIR$/src/main/playingcards/Deck.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/playingcards/DeckTest.java" afterPath="$PROJECT_DIR$/src/test/playingcards/DeckTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/playingcards/HandTest.java" afterPath="$PROJECT_DIR$/src/test/playingcards/HandTest.java" />
     </list>
     <ignored path="CardsGame.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +73,21 @@
       <file leaf-file-name="Card.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/playingcards/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="33" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="600">
+            <state line="14" column="27" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="720">
+              <folding>
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardRank.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/playingcards/CardRank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="8" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -79,7 +96,7 @@
       <file leaf-file-name="Deck.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/playingcards/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="47" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="915">
+            <state line="22" column="9" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="590" max-vertical-offset="945">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#187#193#0" expanded="true" />
@@ -97,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeckTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DeckTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/playingcards/DeckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="1.3492063" vertical-offset="0" max-vertical-offset="810">
+            <state line="46" column="0" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -109,7 +126,16 @@
       <file leaf-file-name="BlackJack.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/playingcards/BlackJack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="10" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+            <state line="6" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlackJackTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -129,7 +155,7 @@
       <file leaf-file-name="HandTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/playingcards/HandTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="29" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="645">
+            <state line="18" column="39" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,10 +163,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardsTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CardsTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/playingcards/CardsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="66" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+            <state line="11" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.46478873" vertical-offset="0" max-vertical-offset="1020">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,12 +199,15 @@
         <option value="$PROJECT_DIR$/src/main/playingcards/BlackJack.java" />
         <option value="$PROJECT_DIR$/src/main/playingcards/CardSuite.java" />
         <option value="$PROJECT_DIR$/src/main/playingcards/Cards.java" />
-        <option value="$PROJECT_DIR$/src/main/playingcards/Card.java" />
         <option value="$PROJECT_DIR$/src/main/playingcards/Hand.java" />
-        <option value="$PROJECT_DIR$/src/test/playingcards/HandTest.java" />
-        <option value="$PROJECT_DIR$/src/test/playingcards/CardsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/playingcards/Deck.java" />
         <option value="$PROJECT_DIR$/src/test/playingcards/DeckTest.java" />
+        <option value="$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/playingcards/CardValue.java" />
+        <option value="$PROJECT_DIR$/src/main/playingcards/CardRank.java" />
+        <option value="$PROJECT_DIR$/src/test/playingcards/HandTest.java" />
+        <option value="$PROJECT_DIR$/src/main/playingcards/Deck.java" />
+        <option value="$PROJECT_DIR$/src/main/playingcards/Card.java" />
+        <option value="$PROJECT_DIR$/src/test/playingcards/CardsTest.java" />
       </list>
     </option>
   </component>
@@ -336,7 +365,7 @@
       <recent name="$PROJECT_DIR$/.idea/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeckTest">
+  <component name="RunManager" selected="JUnit.CardsTest">
     <configuration default="false" name="DeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardsGame" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -595,11 +624,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DeckTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DeckTest (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest.dealingCardfromEmptyDeckShouldThrowException" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HandTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CardsTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CardsTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DeckTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DeckTest.dealingCardfromEmptyDeckShouldThrowException" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HandTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -659,7 +688,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19466881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32781458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32781458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -693,7 +722,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/playingcards/Card.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="5" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
+          <folding>
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -740,7 +774,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/playingcards/Card.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="29" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="360">
-          <folding />
+          <folding>
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -753,20 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/playingcards/CardSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/playingcards/BlackJack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="10" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/playingcards/Hand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="31" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="450">
@@ -776,18 +801,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/playingcards/HandTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/BlackJack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="29" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="645">
+        <state line="6" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/playingcards/DeckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0" vertical-offset="387" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="9" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#187#193#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/playingcards/CardsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/playingcards/HandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="66" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+        <state line="18" column="39" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -796,25 +843,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/playingcards/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="33" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/playingcards/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="47" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="915">
+        <state line="14" column="27" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="720">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#187#193#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/playingcards/DeckTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/CardSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="1.3492063" vertical-offset="0" max-vertical-offset="810">
+        <state line="9" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/CardRank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/playingcards/CardsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.46478873" vertical-offset="0" max-vertical-offset="1020">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
