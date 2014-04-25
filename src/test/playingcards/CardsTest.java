@@ -28,19 +28,19 @@ public class CardsTest {
     @Test
     public void AceOfSpadeShouldBeEqualToAceOfClubs()
     {
-        assertEquals(new Cards(1, CardSuite.SPADE), new Cards(1,CardSuite.CLUBS));
+        assertEquals(new Card(1, CardSuite.SPADE), new Card(1,CardSuite.CLUBS));
     }
 
     @Test
     public void AceOfSpadeShouldbeGreaterThanTwoOfSpade()
     {
-        assertTrue(new Cards(1, CardSuite.SPADE).isGreater(new Cards(2, CardSuite.SPADE)));
+        assertTrue(new Card(1, CardSuite.SPADE).isGreater(new Card(2, CardSuite.SPADE)));
     }
 
     @Test
     public void EightOfSpadeShouldbeGreaterThanTwoOfClubs()
     {
-        assertTrue(new Cards(8, CardSuite.SPADE).isGreater(new Cards(2, CardSuite.CLUBS)));
+        assertTrue(new Card(8, CardSuite.SPADE).isGreater(new Card(2, CardSuite.CLUBS)));
     }
 
 

@@ -7,8 +7,8 @@ import java.util.ArrayList;
  */
 public class Hand {
 
-    ArrayList<Cards> hand = new ArrayList<Cards>();
-    public void addCard(Cards card) {
+    ArrayList<Card> hand = new ArrayList<Card>();
+    public void addCard(Card card) {
         hand.add(card);
     }
 
@@ -16,8 +16,9 @@ public class Hand {
         return hand.size();
     }
 
-    public void removeCard(Cards card) {
+    public Card removeCard(Card card) {
         hand.remove(card);
+        return card;
     }
 
 }
