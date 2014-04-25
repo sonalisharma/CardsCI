@@ -3,6 +3,7 @@ package playingcards;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertNotSame;
 import static junit.framework.Assert.assertTrue;
 
 /**
@@ -26,15 +27,15 @@ public class DeckTest {
         assertEquals(52, d.getSize());
     }
 
-    /*@Test
+    @Test
     public void shufflingCardShouldReturnDifferentCards()
     {
         Deck d = new Deck();
         Card c1 = d.dealCard();
         d.shuffle();
         Card c2 = d.dealCard();
-        assertEquals(c1,c2);
-    }*/
+        assertNotSame(c1,c2);
+    }
 
     @Test(expected = RuntimeException.class)
     public void dealingCardfromEmptyDeckShouldThrowException()

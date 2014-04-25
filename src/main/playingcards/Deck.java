@@ -41,11 +41,11 @@ public class Deck {
 
     public void shuffle()
     {
-        for(int i=0;i<DECK_SIZE;i++)
+        for(int i=0;i<this.getSize();i++)
         {
             Random r = new Random();
             Card temp = cards.get(i);
-            int rand = r.nextInt(52);
+            int rand = r.nextInt(this.getSize());
             cards.set(i,cards.get(rand));
             cards.set(rand,temp);
 

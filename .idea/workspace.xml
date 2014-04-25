@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f24f84f-e911-4b3b-940f-e7ef0e601e2c" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/playingcards/Cards.java" afterPath="$PROJECT_DIR$/src/main/playingcards/Card.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/playingcards/CardsTest.java" afterPath="$PROJECT_DIR$/src/test/playingcards/CardsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/playingcards/Deck.java" afterPath="$PROJECT_DIR$/src/main/playingcards/Deck.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/playingcards/DeckTest.java" afterPath="$PROJECT_DIR$/src/test/playingcards/DeckTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/playingcards/Hand.java" afterPath="$PROJECT_DIR$/src/main/playingcards/Hand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/playingcards/HandTest.java" afterPath="$PROJECT_DIR$/src/test/playingcards/HandTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CardsGame.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,7 +79,7 @@
       <file leaf-file-name="Deck.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/playingcards/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="15" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="915">
+            <state line="47" column="47" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="915">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#187#193#0" expanded="true" />
@@ -105,7 +100,7 @@
       <file leaf-file-name="DeckTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/playingcards/DeckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="7" selection-start="714" selection-end="714" vertical-scroll-proportion="0.48412699" vertical-offset="312" max-vertical-offset="810">
+            <state line="38" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="1.3492063" vertical-offset="0" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -341,7 +336,7 @@
       <recent name="$PROJECT_DIR$/.idea/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeckTest (1)">
+  <component name="RunManager" selected="JUnit.DeckTest">
     <configuration default="false" name="DeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardsGame" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -600,10 +595,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DeckTest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DeckTest.dealingCardfromEmptyDeckShouldThrowException" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HandTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DeckTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DeckTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DeckTest (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest.dealingCardfromEmptyDeckShouldThrowException" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HandTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.CardsTest" />
       </list>
     </recent_temporary>
@@ -664,7 +659,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19466881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32781458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32781458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -808,7 +803,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/playingcards/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="15" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="915">
+        <state line="47" column="47" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="915">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#187#193#0" expanded="true" />
@@ -818,7 +813,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/playingcards/DeckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="7" selection-start="714" selection-end="714" vertical-scroll-proportion="0.48412699" vertical-offset="312" max-vertical-offset="810">
+        <state line="38" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="1.3492063" vertical-offset="0" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
