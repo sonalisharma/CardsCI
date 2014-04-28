@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f24f84f-e911-4b3b-940f-e7ef0e601e2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/playingcards/BlackJack.java" afterPath="$PROJECT_DIR$/src/main/playingcards/BlackJack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java" afterPath="$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java" />
     </list>
     <ignored path="CardsGame.iws" />
@@ -115,7 +114,7 @@
       <file leaf-file-name="BlackJackTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="1" selection-start="502" selection-end="502" vertical-scroll-proportion="0.7183099" vertical-offset="90" max-vertical-offset="450">
+            <state line="29" column="58" selection-start="804" selection-end="804" vertical-scroll-proportion="0.4084507" vertical-offset="260" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -180,8 +179,8 @@
         <option value="$PROJECT_DIR$/src/test/playingcards/CardsTest.java" />
         <option value="$PROJECT_DIR$/src/test/playingcards/HandTest.java" />
         <option value="$PROJECT_DIR$/src/main/playingcards/Hand.java" />
-        <option value="$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java" />
         <option value="$PROJECT_DIR$/src/main/playingcards/BlackJack.java" />
+        <option value="$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java" />
       </list>
     </option>
   </component>
@@ -897,7 +896,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="1" selection-start="502" selection-end="502" vertical-scroll-proportion="0.7183099" vertical-offset="90" max-vertical-offset="450">
+        <state line="29" column="58" selection-start="804" selection-end="804" vertical-scroll-proportion="0.4084507" vertical-offset="260" max-vertical-offset="615">
           <folding />
         </state>
       </provider>

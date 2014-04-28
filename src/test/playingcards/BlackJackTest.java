@@ -21,6 +21,17 @@ public class BlackJackTest {
         assertEquals(5, b.getHandValue(h1));
     }
 
+    @Test
+    public void totalValueOfTwoOfSpadeAndThreeOfClubsEightOfHeartsShouldBe13()
+    {
+        Hand h1 = new Hand();
+        h1.addCard(new Card(CardRank.TWO,CardSuite.SPADE));
+        h1.addCard(new Card(CardRank.THREE,CardSuite.CLUBS));
+        h1.addCard(new Card(CardRank.EIGHT,CardSuite.HEART));
+        BlackJack b = new BlackJack();
+        assertEquals(13, b.getHandValue(h1));
+    }
+
 
 
 }
