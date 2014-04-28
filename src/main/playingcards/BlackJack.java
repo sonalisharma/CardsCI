@@ -10,13 +10,14 @@ public class BlackJack {
         int value = 0;
         for(Card card: hand.cards)
         {
-
-            value = value + card.getRank().ordinal();
+            value = value + card.getRank().ordinal()+1;
         }
+
         return value;
     }
 
     public static void main(String[] args) {
+
 
         //Cards c = new Cards(11);
         //System.out.println(c.getValue());
