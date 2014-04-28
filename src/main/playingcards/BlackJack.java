@@ -47,4 +47,12 @@ public class BlackJack {
     }
 
 
+    public boolean getResult(Hand playerHand, Hand dealerHand) {
+
+       if (getHandValue(playerHand) == 21) return true;
+       if (getHandValue(dealerHand) == 21) return true;
+       return getHandValue(playerHand) > getHandValue(dealerHand);
+
+
+    }
 }

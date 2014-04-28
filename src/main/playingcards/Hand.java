@@ -30,4 +30,5 @@ public class Hand {
         }
         return count;
     }
+
 }
