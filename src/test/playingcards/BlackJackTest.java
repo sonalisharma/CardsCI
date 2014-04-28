@@ -32,6 +32,16 @@ public class BlackJackTest {
         assertEquals(13, b.getHandValue(h1));
     }
 
+    @Test
+    public void kingOfSpadeAndQueenOfHeartShouldReturn20()
+    {
+        Hand h1 = new Hand();
+        h1.addCard(new Card(CardRank.KING,CardSuite.SPADE));
+        h1.addCard(new Card(CardRank.QUEEN,CardSuite.HEART));
+        BlackJack b = new BlackJack();
+        assertEquals(20, b.getHandValue(h1));
+    }
+
 
 
 }
