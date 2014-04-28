@@ -42,6 +42,36 @@ public class BlackJackTest {
         assertEquals(20, b.getHandValue(h1));
     }
 
+    @Test
+    public void kingOfSpadeAndThreeOfHeartShouldReturn13()
+    {
+        Hand h1 = new Hand();
+        h1.addCard(new Card(CardRank.KING,CardSuite.SPADE));
+        h1.addCard(new Card(CardRank.THREE,CardSuite.HEART));
+        BlackJack b = new BlackJack();
+        assertEquals(13, b.getHandValue(h1));
+    }
+
+    @Test
+    public void aceOfSpadeAndThreeOfDiamondShouldReturn14()
+    {
+        Hand h1 = new Hand();
+        h1.addCard(new Card(CardRank.ACE,CardSuite.SPADE));
+        h1.addCard(new Card(CardRank.THREE,CardSuite.HEART));
+        BlackJack b = new BlackJack();
+        assertEquals(14, b.getHandValue(h1));
+    }
+
+    @Test
+    public void aceOfSpadeAndAceOfHeartsAndEightOfDiamondShouldReturn20()
+    {
+        Hand h1 = new Hand();
+        h1.addCard(new Card(CardRank.ACE,CardSuite.SPADE));
+        h1.addCard(new Card(CardRank.ACE,CardSuite.HEART));
+        h1.addCard(new Card(CardRank.EIGHT,CardSuite.DIAMOND));
+        BlackJack b = new BlackJack();
+        assertEquals(20, b.getHandValue(h1));
+    }
 
 
 }

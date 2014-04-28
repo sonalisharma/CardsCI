@@ -7,22 +7,35 @@ public class BlackJack {
 
     public int getHandValue(Hand hand)
     {
-        int acc = 0;
-        int cardValue = 0;
+        int totalVal = 0;
+        int cntAce = 0;
+
         for(Card card: hand.cards)
         {
-            if(card.getRank().ordinal() >=10)
+            int cardValue = 0;
+            if(card.getRank() == CardRank.ACE)
             {
-                cardValue = 10;
+                cntAce++;
             }
             else
             {
-                cardValue = card.getRank().ordinal()+1;
+                if(card.getRank().ordinal() >=10)
+                    cardValue = 10;
+                else
+                    cardValue = card.getRank().ordinal() + 1;
             }
-            acc = acc + cardValue;
+
+            totalVal = totalVal + cardValue;
         }
 
-        return acc;
+        for(int i=1; i<=cntAce; i++)
+        {
+            int diff = 21 - totalVal;
+            int aceValue = (diff > 10) ? 11 : 1;
+            totalVal += aceValue;
+        }
+
+        return totalVal;
     }
 
     public static void main(String[] args) {
