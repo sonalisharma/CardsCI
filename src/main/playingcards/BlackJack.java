@@ -5,7 +5,16 @@ package playingcards;
  */
 public class BlackJack {
 
+    public int getHandValue(Hand hand)
+    {
+        int value = 0;
+        for(Card card: hand.cards)
+        {
 
+            value = value + card.getRank().ordinal();
+        }
+        return value;
+    }
 
     public static void main(String[] args) {
 
@@ -13,5 +22,6 @@ public class BlackJack {
         //System.out.println(c.getValue());
 
     }
+
 
 }

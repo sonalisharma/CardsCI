@@ -7,18 +7,27 @@ import java.util.ArrayList;
  */
 public class Hand {
 
-    ArrayList<Card> hand = new ArrayList<Card>();
+    ArrayList<Card> cards = new ArrayList<Card>();
     public void addCard(Card card) {
-        hand.add(card);
+        cards.add(card);
     }
 
     public int cardsCount() {
-        return hand.size();
+        return cards.size();
     }
 
     public Card removeCard(Card card) {
-        hand.remove(card);
+        cards.remove(card);
         return card;
     }
 
+    public int getCardsCount() {
+        int count = 0;
+        for(Card card: cards)
+        {
+
+            count = count + 1;
+        }
+        return count;
+    }
 }
