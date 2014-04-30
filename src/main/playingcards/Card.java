@@ -15,6 +15,10 @@ public class Card {
         this.suite = suite;
     }
 
+    public String toString() {
+        return getRank().name()+" of "+ getSuite().name();
+    }
+
     public CardRank getRank() {
         return rank;
     }

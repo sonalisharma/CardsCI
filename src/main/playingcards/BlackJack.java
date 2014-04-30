@@ -38,13 +38,6 @@ public class BlackJack {
         return totalVal;
     }
 
-    public static void main(String[] args) {
-
-
-        //Cards c = new Cards(11);
-        //System.out.println(c.getValue());
-
-    }
 
 
     public boolean getResult(Hand playerHand, Hand dealerHand) {
@@ -57,4 +50,13 @@ public class BlackJack {
 
 
     }
+
+    public static void main(String[] args) {
+
+
+        //Cards c = new Cards(11);
+        //System.out.println(c.getValue());
+
+    }
+
 }

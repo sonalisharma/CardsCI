@@ -44,6 +44,13 @@ public class CardsTest {
         assertEquals(CardSuite.SPADE,card.getSuite());
     }
 
+    @Test
+    public void aceofSpadeShouldPrintACEofSPADE()
+    {
+        Card card = new Card(CardRank.ACE, CardSuite.SPADE);
+        assertEquals("ACE of SPADE",card.toString());
+    }
+
     /*This test becomes redundant now
     @Test
     public void AceOfSpadeShouldbeGreaterThanTwoOfSpade()
