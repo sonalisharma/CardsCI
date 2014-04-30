@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f24f84f-e911-4b3b-940f-e7ef0e601e2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/playingcards/BlackJack.java" afterPath="$PROJECT_DIR$/src/main/playingcards/BlackJack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java" afterPath="$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/playingcards/Deck.java" afterPath="$PROJECT_DIR$/src/main/playingcards/Deck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CardsGame.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,7 +87,7 @@
       <file leaf-file-name="BlackJackTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="42" selection-start="2960" selection-end="2960" vertical-scroll-proportion="0.37301588" vertical-offset="1254" max-vertical-offset="1710">
+            <state line="123" column="38" selection-start="3863" selection-end="3863" vertical-scroll-proportion="0.88095236" vertical-offset="1452" max-vertical-offset="1950">
               <folding />
             </state>
           </provider>
@@ -935,7 +932,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="42" selection-start="2960" selection-end="2960" vertical-scroll-proportion="0.37301588" vertical-offset="1254" max-vertical-offset="1710">
+        <state line="123" column="38" selection-start="3863" selection-end="3863" vertical-scroll-proportion="0.88095236" vertical-offset="1452" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>

@@ -108,5 +108,21 @@ public class BlackJackTest {
     }
 
 
+    @Test
+    public void dealerHandValueGreaterThan21ShouldBust()
+    {
+        Hand h1 = new Hand();
+        h1.addCard(new Card(CardRank.EIGHT,CardSuite.SPADE));
+        h1.addCard(new Card(CardRank.SIX,CardSuite.HEART));
+        h1.addCard(new Card(CardRank.EIGHT,CardSuite.HEART));
+
+        Hand h2 = new Hand();
+        h2.addCard(new Card(CardRank.EIGHT,CardSuite.SPADE));
+        h2.addCard(new Card(CardRank.SIX,CardSuite.HEART));
+
+        BlackJack b = new BlackJack();
+        assertFalse(b.getResult(h2, h1));
+    }
+
 
 }
