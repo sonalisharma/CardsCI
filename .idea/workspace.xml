@@ -4,7 +4,8 @@
     <list default="true" id="0f24f84f-e911-4b3b-940f-e7ef0e601e2c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/playingcards/BlackJack.java" afterPath="$PROJECT_DIR$/src/main/playingcards/BlackJack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java" afterPath="$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/playingcards/Hand.java" afterPath="$PROJECT_DIR$/src/main/playingcards/Hand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/playingcards/Deck.java" afterPath="$PROJECT_DIR$/src/main/playingcards/Deck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CardsGame.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,37 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Deck.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/playingcards/Deck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="930">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardRank.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/playingcards/CardRank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="8" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeckTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/playingcards/DeckTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="43" selection-start="773" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="780">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BlackJack.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/playingcards/BlackJack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="66" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="960">
+            <state line="57" column="0" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="549" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -116,7 +90,7 @@
       <file leaf-file-name="BlackJackTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="38" selection-start="2761" selection-end="2761" vertical-scroll-proportion="0.57746476" vertical-offset="1070" max-vertical-offset="1455">
+            <state line="97" column="42" selection-start="2960" selection-end="2960" vertical-scroll-proportion="0.37301588" vertical-offset="1254" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
@@ -134,7 +108,7 @@
       <file leaf-file-name="HandTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/playingcards/HandTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="29" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="365" max-vertical-offset="750">
+            <state line="40" column="29" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -176,11 +150,11 @@
         <option value="$PROJECT_DIR$/src/test/playingcards/DeckTest.java" />
         <option value="$PROJECT_DIR$/src/main/playingcards/CardValue.java" />
         <option value="$PROJECT_DIR$/src/main/playingcards/CardRank.java" />
-        <option value="$PROJECT_DIR$/src/main/playingcards/Deck.java" />
         <option value="$PROJECT_DIR$/src/main/playingcards/Card.java" />
         <option value="$PROJECT_DIR$/src/test/playingcards/CardsTest.java" />
         <option value="$PROJECT_DIR$/src/test/playingcards/HandTest.java" />
         <option value="$PROJECT_DIR$/src/main/playingcards/Hand.java" />
+        <option value="$PROJECT_DIR$/src/main/playingcards/Deck.java" />
         <option value="$PROJECT_DIR$/src/main/playingcards/BlackJack.java" />
         <option value="$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java" />
       </list>
@@ -217,8 +191,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -492,6 +466,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -517,19 +504,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -662,8 +636,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -682,13 +656,13 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19466881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -714,6 +688,69 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/CardRank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/playingcards/DeckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="43" selection-start="773" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/BlackJack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="66" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="38" selection-start="2761" selection-end="2761" vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="1455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/Hand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/playingcards/HandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="29" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/playingcards/CardsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/playingcards/Card.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="27" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
@@ -833,16 +870,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/playingcards/DeckTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/playingcards/CardsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="43" selection-start="773" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="780">
+        <state line="52" column="0" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/playingcards/CardsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/CardSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="1020">
+        <state line="9" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.3802817" vertical-offset="0" max-vertical-offset="355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/Hand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="4" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.86799276" vertical-offset="360" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/playingcards/DeckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="43" selection-start="773" selection-end="806" vertical-scroll-proportion="0.5052083" vertical-offset="204" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/playingcards/CardRank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="207" selection-end="207" vertical-scroll-proportion="0.46875" vertical-offset="0" max-vertical-offset="576">
           <folding />
         </state>
       </provider>
@@ -861,44 +926,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/playingcards/CardSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.3802817" vertical-offset="0" max-vertical-offset="355">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/playingcards/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/playingcards/CardRank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/playingcards/Hand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/playingcards/BlackJack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="66" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="960">
+        <state line="57" column="0" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/playingcards/BlackJackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="38" selection-start="2761" selection-end="2761" vertical-scroll-proportion="0.57746476" vertical-offset="1070" max-vertical-offset="1455">
+        <state line="97" column="42" selection-start="2960" selection-end="2960" vertical-scroll-proportion="0.37301588" vertical-offset="1254" max-vertical-offset="1710">
           <folding />
         </state>
       </provider>

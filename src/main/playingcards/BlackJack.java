@@ -51,6 +51,8 @@ public class BlackJack {
 
        if (getHandValue(playerHand) == 21) return true;
        if (getHandValue(dealerHand) == 21) return true;
+       if (getHandValue(playerHand) > 21) return false;
+       if (getHandValue(dealerHand) > 21) return false;
        return getHandValue(playerHand) > getHandValue(dealerHand);
 
 
