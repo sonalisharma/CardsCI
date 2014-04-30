@@ -124,5 +124,4 @@ public class BlackJackTest {
         assertFalse(b.getResult(h2, h1));
     }
 
-
 }
