@@ -31,4 +31,12 @@ public class Hand {
         return count;
     }
 
+    public void displayCards()
+    {
+        for(Card c: cards)
+        {
+            System.out.println(c);
+        }
+    }
+
 }
