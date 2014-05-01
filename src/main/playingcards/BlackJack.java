@@ -56,7 +56,11 @@ public class BlackJack {
     public static void main(String[] args) {
 
         boolean flag = false;
+        boolean userInputEnd = false;
+        boolean dealerInputEnd = false;
+
         Deck d = new Deck();
+        d.shuffle();
         Hand user = new Hand();
         BlackJack game = new BlackJack();
 
@@ -82,28 +86,39 @@ public class BlackJack {
 
         while(flag == false)
         {
-            if(response == "Y")
+            System.out.println(response);
+            if(response.endsWith("Y"))
             {
                 user.addCard(d.dealCard());
+                user.displayCards();
                 if(game.getHandValue(user) > 21)
                 {
                     flag = true;
+                    break;
                 }
-                user.displayCards();
+
+                System.out.println("Do you want to hit? Type Y for Yes and N for No");
+                response = inputReader.nextLine();
+            }
+            else
+            {
+                userInputEnd = true;
             }
 
             if(game.getHandValue(dealer) <= 16)
             {
-                user.addCard(d.dealCard());
+                dealer.addCard(d.dealCard());
                 if(game.getHandValue(dealer) > 21)
                 {
                     flag = true;
+                    break;
                 }
 
             }
-
-            System.out.println("Do you want to hit? Type Y for Yes and N for No");
-            inputReader = new Scanner(System.in);
+            else
+            {
+                if(userInputEnd) break;
+            }
 
         }
 
