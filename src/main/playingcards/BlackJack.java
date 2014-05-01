@@ -68,7 +68,7 @@ public class BlackJack {
         System.out.println("===================================");
         System.out.println(" WELCOME TO THE GAME OF BLACK JACK");
         System.out.println("===================================");
-        System.out.println("Your     Hand");
+        System.out.println("Your Hand");
 
         user.addCard(d.dealCard());
         user.addCard(d.dealCard());
@@ -86,12 +86,12 @@ public class BlackJack {
 
         while(flag == false)
         {
-            System.out.println(response);
+
             if(response.endsWith("Y"))
             {
                 user.addCard(d.dealCard());
                 user.displayCards();
-                if(game.getHandValue(user) > 21)
+                if(game.getHandValue(user) >=21)
                 {
                     flag = true;
                     break;
@@ -122,6 +122,8 @@ public class BlackJack {
 
         }
 
+        System.out.println("Dealer's cards");
+
         if(game.getResult(user,dealer))
         {
             System.out.println("Congratulations!!! you won!!!!");
@@ -130,8 +132,6 @@ public class BlackJack {
         {
             System.out.println("The dealer won!!!");
         }
-
-
     }
 
 }
