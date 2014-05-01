@@ -1,6 +1,5 @@
 package playingcards;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 /**
@@ -55,12 +54,18 @@ public class BlackJack {
     }
 
     public static void main(String[] args) {
+
+        boolean flag = false;
+        Deck d = new Deck();
+        Hand user = new Hand();
+        BlackJack game = new BlackJack();
+
+
         System.out.println("===================================");
         System.out.println(" WELCOME TO THE GAME OF BLACK JACK");
         System.out.println("===================================");
         System.out.println("Your     Hand");
-        Deck d = new Deck();
-        Hand user = new Hand();
+
         user.addCard(d.dealCard());
         user.addCard(d.dealCard());
         user.displayCards();
@@ -69,27 +74,47 @@ public class BlackJack {
         dealer.addCard(d.dealCard());
         dealer.addCard(d.dealCard());
 
-        System.out.println("Do you want to hit? Type Y for Yes and N for No ");
+        System.out.println("Do you want to hit? Type Y for Yes and N for No");
         Scanner inputReader = new Scanner(System.in);
 
         //Getting input in String format
-        String name = inputReader.nextLine();
-        System.out.println("Hi " + name);
+        String response = inputReader.nextLine();
 
-        //Getting number as input from command line in Java
-        System.out.println("Please enter a number from command line? ");
-        int number = inputReader.nextInt();
-        System.out.println("You have entered : " + number);
+        while(flag == false)
+        {
+            if(response == "Y")
+            {
+                user.addCard(d.dealCard());
+                if(game.getHandValue(user) > 21)
+                {
+                    flag = true;
+                }
+                user.displayCards();
+            }
 
-        //Getting floating point as input from command line in Java
-        System.out.println("Please enter a floating point number from command line? ");
-        float decimal = inputReader.nextFloat();
-        System.out.println("You have entered : " + decimal);
+            if(game.getHandValue(dealer) <= 16)
+            {
+                user.addCard(d.dealCard());
+                if(game.getHandValue(dealer) > 21)
+                {
+                    flag = true;
+                }
 
-        //Java Example to get input from user using GUI
-        String input = JOptionPane.showInputDialog("Enter any number of your choice");
-        System.out.println("User has entered: " + input);
+            }
 
+            System.out.println("Do you want to hit? Type Y for Yes and N for No");
+            inputReader = new Scanner(System.in);
+
+        }
+
+        if(game.getResult(user,dealer))
+        {
+            System.out.println("Congratulations!!! you won!!!!");
+        }
+        else
+        {
+            System.out.println("The dealer won!!!");
+        }
 
 
     }
