@@ -45,9 +45,9 @@ public class BlackJack {
     public boolean getResult(Hand playerHand, Hand dealerHand) {
 
        if (getHandValue(playerHand) == 21) return true;
-       if (getHandValue(dealerHand) == 21) return true;
+       if (getHandValue(dealerHand) == 21) return false;
        if (getHandValue(playerHand) > 21) return false;
-       if (getHandValue(dealerHand) > 21) return false;
+       if (getHandValue(dealerHand) > 21) return true;
        return getHandValue(playerHand) > getHandValue(dealerHand);
 
 
@@ -55,23 +55,21 @@ public class BlackJack {
 
     public static void main(String[] args) {
 
-        boolean flag = false;
-        boolean userInputEnd = false;
-        boolean dealerInputEnd = false;
-
-        Deck d = new Deck();
-        d.shuffle();
-        Hand user = new Hand();
-        BlackJack game = new BlackJack();
-
-
         System.out.println("===================================");
         System.out.println(" WELCOME TO THE GAME OF BLACK JACK");
         System.out.println("===================================");
-        System.out.println("Your Hand");
 
+        boolean userInputEnd = false;
+        Deck d = new Deck();
+        d.shuffle();
+        BlackJack game = new BlackJack();
+
+
+        Hand user = new Hand();
         user.addCard(d.dealCard());
         user.addCard(d.dealCard());
+
+        System.out.println("Your Hand");
         user.displayCards();
 
         Hand dealer = new Hand();
@@ -83,17 +81,14 @@ public class BlackJack {
 
         //Getting input in String format
         String response = inputReader.nextLine();
-
-        while(flag == false)
+        while(true)
         {
-
-            if(response.endsWith("Y"))
+            if(response.toLowerCase().endsWith("y"))
             {
                 user.addCard(d.dealCard());
                 user.displayCards();
                 if(game.getHandValue(user) >=21)
                 {
-                    flag = true;
                     break;
                 }
 
@@ -108,30 +103,25 @@ public class BlackJack {
             if(game.getHandValue(dealer) <= 16)
             {
                 dealer.addCard(d.dealCard());
-                if(game.getHandValue(dealer) > 21)
-                {
-                    flag = true;
-                    break;
-                }
-
+                if(game.getHandValue(dealer) > 21) break;
             }
             else
             {
                 if(userInputEnd) break;
             }
-
         }
 
         System.out.println("Dealer's cards");
+        dealer.displayCards();
 
         if(game.getResult(user,dealer))
-        {
-            System.out.println("Congratulations!!! you won!!!!");
-        }
+            System.out.println("Congratulations!!! You won!!!!");
         else
-        {
-            System.out.println("The dealer won!!!");
-        }
-    }
+            System.out.println("Sorry, the dealer won :(");
 
+        System.out.println("Total of your cards: "+game.getHandValue(user));
+        System.out.println("Total of dealer's cards: "+game.getHandValue(dealer));
+
+
+    }
 }
